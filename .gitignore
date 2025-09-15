@@ -1,0 +1,44 @@
+.terraform/
+# Archivos de estado y backups
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Archivos de crash y logs
+crash.log
+crash.*.log
+
+# Archivos de variables sensibles
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Claves privadas y credenciales
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks
+
+# Archivos de salida y temporales
+*.out
+*.plan
+*.backup
+*.log
+
+# Archivos de configuración local/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos de licencia y secretos (si contienen datos sensibles)
+license.txt
+
+# Ignorar archivos de ejemplo si contienen datos de prueba
+terraform.tfvars.example
