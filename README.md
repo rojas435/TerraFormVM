@@ -91,4 +91,3 @@ Confirma con `yes`.
 - Cambios en cloud-init no aplican tras la primera creación: destruir la VM o cambiar el nombre para reprovisionar.
 
 ---
-Infraestructura lista para evaluación. 😎
