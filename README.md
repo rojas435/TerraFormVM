@@ -1,5 +1,8 @@
 # Terraform Azure VM Project - Modular DevOps Architecture# Provisionar VM Linux en Azure con Terraform
 
+## Prompt usado para poder sacar esta maquina virtual
+`Soy un experto en DevOps y quiero aplicar las mejores prácticas actuales, modularizando este proyecto para que sea escalable. Modifica la estructura del proyecto tanto a nivel de código como de carpetas y archivos para cumplir con lo establecido.`
+
 
 
 Este proyecto implementa una arquitectura modular de Terraform siguiendo las mejores prácticas de DevOps para el despliegue de máquinas virtuales en Azure. La estructura está diseñada para ser escalable, mantenible y reutilizable.Este proyecto crea una máquina virtual Ubuntu 22.04 LTS en Azure, accesible por **SSH con usuario y contraseña**, e inserta el contenido de `license.txt` dentro de la VM mediante cloud-init (en `/opt/license.txt`).
